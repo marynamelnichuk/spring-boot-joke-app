@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 public class JokeAppConfig {
 
     @Bean
-    public ChuckNorrisQuotes getChuckNorrisQuotes()
+    public ChuckNorrisQuotes quotesJavaBase()
     {
         return new ChuckNorrisQuotes();
     }
